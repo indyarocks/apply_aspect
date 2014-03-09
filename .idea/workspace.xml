@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2cc5cdc-2229-4154-8d48-5652d58f7eb6" name="Default" comment="changes for loading aspect files&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/aspect_base.rb" afterPath="$PROJECT_DIR$/lib/aspect_base.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bus.rb" afterPath="$PROJECT_DIR$/lib/bus.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/car.rb" afterPath="$PROJECT_DIR$/lib/car.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/aspects/logging.rb" afterPath="$PROJECT_DIR$/lib/aspects/logging.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/aspects/notification.rb" afterPath="$PROJECT_DIR$/lib/aspects/notification.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vehicle.rb" afterPath="$PROJECT_DIR$/lib/vehicle.rb" />
     </list>
     <ignored path="apply_aspects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="aspect_base.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="aspect_base.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/aspect_base.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="47" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="26" column="47" selection-start="734" selection-end="734" vertical-scroll-proportion="0.7991803" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -41,7 +38,7 @@
       <file leaf-file-name="vehicle.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/vehicle.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="0" column="0" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -50,16 +47,25 @@
       <file leaf-file-name="car.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/car.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bus.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="apply_aspect.gemspec" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apply_aspect.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bus.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bus.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18442623" vertical-offset="0" max-vertical-offset="488">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -68,7 +74,7 @@
       <file leaf-file-name="logging.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/aspects/logging.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="11" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="6" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -96,12 +102,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/vehicle.rb" />
         <option value="$PROJECT_DIR$/lib/aspects/logging.rb" />
-        <option value="$PROJECT_DIR$/lib/bus.rb" />
-        <option value="$PROJECT_DIR$/lib/car.rb" />
         <option value="$PROJECT_DIR$/lib/aspects/notification.rb" />
         <option value="$PROJECT_DIR$/lib/aspect_base.rb" />
+        <option value="$PROJECT_DIR$/lib/vehicle.rb" />
+        <option value="$PROJECT_DIR$/lib/car.rb" />
+        <option value="$PROJECT_DIR$/lib/bus.rb" />
       </list>
     </option>
   </component>
@@ -165,24 +171,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apply_aspects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apply_aspects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aspects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,16 +300,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/car.rb">
+    <entry file="file://$PROJECT_DIR$/apply_aspect.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vehicle.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
           <folding />
         </state>
       </provider>
@@ -335,21 +316,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/aspects/logging.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+        <state line="6" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/aspect_base.rb">
+    <entry file="file://$PROJECT_DIR$/lib/vehicle.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="47" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+        <state line="0" column="0" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/car.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bus.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.18442623" vertical-offset="0" max-vertical-offset="488">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/aspect_base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="47" selection-start="734" selection-end="734" vertical-scroll-proportion="0.7991803" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>

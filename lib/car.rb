@@ -1,3 +1,5 @@
+require './vehicle.rb'
+
 class Car < Vehicle
 
   def start
