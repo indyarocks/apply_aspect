@@ -19,12 +19,12 @@ module Logging
           t2 = Time.now
           puts "Time #{entity_class.name} #{m} " + (t2-t1).to_s + " secs"
         end
-
-
-
       end}
       end
     end
+  end
+
+  class Bus
 
   end
 end

@@ -1,5 +1,7 @@
 module AspectBase
-  #ASPECT_LOCATION = '/aspects' # relative position from current folder. Find a way to load it in this class
+  ASPECT_LOCATION = '/aspects' # relative position from current folder.
+
+  Dir[File.dirname(__FILE__) + "/lib/#{ASPECT_LOCATION}/*.rb"].each {|file| require file }
 
   def has_aspects(*args)
     args.each do |aspect_name|
